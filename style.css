@@ -1,0 +1,20 @@
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  margin: 20px 0;
+  text-align: center;
+}
+.btn {
+  margin: 5px 0;
+  width: 120px;
+  height: 40px;
+  border: none;
+  background-color: #dcff00;
+}
+.hide {
+  display: none;
+}
