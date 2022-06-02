@@ -13,14 +13,21 @@
       <button class="btn">테스트 시작하기</button>
     </article>
     <article class="question hide">
-      <h2 class="title">문제</h2>
-      <button class="btn">A</button>
-      <button class="btn">B</button>
+      <h2 id="title" class="title">문제</h2>
+      <div id="count">1/12</div>
+      <input type="hidden" id="type" value="EI" />
+      <button id="A" class="btn">A</button>
+      <button id="B" class="btn">B</button>
+    </article>
+    <article class="result hide">
+      <img src="iruma.jpg" alt="iruma jyuto" />
+      <h2 id="animal"></h2>
+      <h3 id="description"></h3>
     </article>
     <input type="hidden" id="EI" name="EI" value="0" />
     <input type="hidden" id="SN" name="SN" value="0" />
     <input type="hidden" id="TF" name="TF" value="0" />
     <input type="hidden" id="JP" name="JP" value="0" />
-    <script src="index.js"></script>
+    <script type="module" src="index.js"></script>
   </body>
 </html>

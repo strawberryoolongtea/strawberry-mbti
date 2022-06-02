@@ -1,4 +1,4 @@
-const question = {
+export const question = {
   1: { title: "문제 1번", type: "EI", A: "E", B: "I" },
   2: { title: "문제 2번", type: "EI", A: "E", B: "I" },
   3: { title: "문제 3번", type: "EI", A: "E", B: "I" },
@@ -13,7 +13,7 @@ const question = {
   12: { title: "문제 12번", type: "JP", A: "J", B: "P" },
 };
 
-const mbti = {
+export const mbti = {
   ESTJ: {
     firstName: "Iruma Jyuto",
     description: "Iruma Jyuto is ...",
