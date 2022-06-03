@@ -15,14 +15,84 @@ export const question = {
 
 export const mbti = {
   ESTJ: {
-    firstName: "Iruma Jyuto",
-    description: "Iruma Jyuto is ...",
-    imgSrc: "jyuto.jpg",
+    name: "Iruma Jyuto",
+    description:
+      "He who is not courageous enough to take risks will accomplish nothing in life.",
+    imgSrc: "/images/yokohama_02.png",
+  },
+  ESTP: {
+    name: "Yamada Ichiro",
+    description: "Yamada Ichiro is ...",
+    imgSrc: "/images/ikebukuro_01.png",
   },
   ESFJ: {
-    firstName: "Hihumi",
-    lastName: "Izanami",
+    name: "Yamada Jiro",
+    description: "Yamada Jiro is ...",
+    imgSrc: "/images/ikebukuro_02.png",
+  },
+  ESFP: {
+    name: "Yamada Saburo",
+    description: "Yamada Saburo is ...",
+    imgSrc: "/images/ikebukuro_03.png",
+  },
+  ENTJ: {
+    name: "Aohitsugi Samatoki",
+    description: "Aohitsugi Samatoki is ...",
+    imgSrc: "/images/yokohama_01.png",
+  },
+  ENTP: {
+    name: "Busujima Mason Rio",
+    description: "Busujima Mason Rio is ...",
+    imgSrc: "/images/yokohama_03.png",
+  },
+  ENFJ: {
+    name: "Amemura Ramuda",
+    description: "Amemura Ramuda is ...",
+    imgSrc: "/images/shibuya_01.png",
+  },
+  ENFP: {
+    name: "Yumeno Gentaro",
+    description: "Yumeno Gentaro is ...",
+    imgSrc: "/images/shibuya_02.png",
+  },
+  ISTJ: {
+    name: "Arisugawa Dice",
+    description: "Arisugawa Dice is ...",
+    imgSrc: "/images/shibuya_03.png",
+  },
+  ISTP: {
+    name: "Jinguji Zakurai",
+    description: "Jinguji Zakurai is ...",
+    imgSrc: "/images/shinjuku_01.png",
+  },
+  ISFJ: {
+    name: "Izanami Hihumi",
     description: "Izanami Hihumi is ...",
-    imgSrc: "hihumi.jpg",
+    imgSrc: "/images/shinjuku_02.png",
+  },
+  ISFP: {
+    name: "Kannonzaka Doppo",
+    description: "Kannonzaka Doppo is ...",
+    imgSrc: "/images/shinjuku_03.png",
+  },
+  INTJ: {
+    name: "Nurude Sasara",
+    description: "Nurude Sasara is ...",
+    imgSrc: "/images/osaka_01.png",
+  },
+  INTP: {
+    name: "Tsutsujimori Rosyo",
+    description: "Tsutsujimori Rosyo is ...",
+    imgSrc: "/images/osaka_02.png",
+  },
+  INFJ: {
+    name: "Amayado Rei",
+    description: "Amayado Rei is ...",
+    imgSrc: "/images/osaka_03.png",
+  },
+  INFP: {
+    name: "Harai Kuko",
+    description: "Harai Kuko is ...",
+    imgSrc: "/images/nagoya_01.png",
   },
 };

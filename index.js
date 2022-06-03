@@ -19,9 +19,30 @@ function next() {
   const questionA = document.querySelector("#A");
   const questionB = document.querySelector("#B");
   const count = document.querySelector("#count");
+
   if (num === 13) {
+    const EI = document.querySelector("#EI");
+    const SN = document.querySelector("#SN");
+    const TF = document.querySelector("#TF");
+    const JP = document.querySelector("#JP");
+    const profile = result.querySelector("#profile");
+    const member = result.querySelector("#member");
+    const description = result.querySelector("#description");
+    let mbtiResult = "";
+
     questions.classList.add("hide");
     result.classList.remove("hide");
+
+    EI.value > 2 ? (mbtiResult += "E") : (mbtiResult += "I");
+    SN.value > 2 ? (mbtiResult += "S") : (mbtiResult += "N");
+    TF.value > 2 ? (mbtiResult += "T") : (mbtiResult += "F");
+    JP.value > 2 ? (mbtiResult += "J") : (mbtiResult += "P");
+
+    alert(mbtiResult);
+
+    profile.src = mbti[mbtiResult].imgSrc;
+    member.innerHTML = mbti[mbtiResult].name;
+    description.innerHTML = mbti[mbtiResult].description;
   } else {
     title.innerHTML = question[num].title;
     type.value = question[num].type;
@@ -41,9 +62,7 @@ startBtn.addEventListener("click", start);
 selectionA.addEventListener("click", () => {
   const type = document.querySelector("#type");
   const prev = document.querySelector(`#${type.value}`);
-  console.log(type.value);
   prev.value = parseInt(prev.value) + 1;
-  console.log(prev.value);
   next();
 });
 
