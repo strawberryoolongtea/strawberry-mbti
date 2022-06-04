@@ -13,6 +13,7 @@ function start() {
 
 function next() {
   const questions = document.querySelector(".question");
+  const questionDesc = document.querySelector("#question-desc");
   const result = document.querySelector(".result");
   const title = document.querySelector("#title");
   const type = document.querySelector("#type");
@@ -46,6 +47,7 @@ function next() {
   } else {
     title.innerHTML = question[num].title;
     type.value = question[num].type;
+    questionDesc.innerHTML = question[num].question;
     questionA.innerHTML = question[num].A;
     questionB.innerHTML = question[num].B;
     count.innerHTML = `${num}/${questionNums}`;
